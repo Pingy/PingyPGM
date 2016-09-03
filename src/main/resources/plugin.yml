@@ -1,0 +1,6 @@
+name: PingyPGM
+description: A better PGM for the world!
+main: io.pingy.PingyPGM
+version: 1.0
+author: 68pingy
+prefix: PingyPGM
