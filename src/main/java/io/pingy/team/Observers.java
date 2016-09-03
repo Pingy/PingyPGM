@@ -1,4 +1,4 @@
-package io.pingy.Teams;
+package io.pingy.team;
 
 /**
  * Created by thlappy on 9/2/2016.

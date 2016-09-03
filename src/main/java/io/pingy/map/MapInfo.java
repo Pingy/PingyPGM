@@ -1,4 +1,4 @@
-package io.pingy.Map;
+package io.pingy.map;
 
 import java.util.List;
 

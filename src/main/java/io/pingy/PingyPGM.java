@@ -2,8 +2,8 @@ package io.pingy;
 
 import com.sk89q.bukkit.util.CommandsManagerRegistration;
 import com.sk89q.minecraft.util.commands.*;
-import io.pingy.Commands.Map;
-import io.pingy.Commands.Test;
+import io.pingy.commands.Map;
+import io.pingy.commands.Test;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;

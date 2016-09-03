@@ -1,4 +1,4 @@
-package io.pingy.Map;
+package io.pingy.map;
 
 import org.bukkit.Bukkit;
 
@@ -7,7 +7,7 @@ import org.bukkit.Bukkit;
  */
 public class MapHandler {
     public static void main(){
-        Bukkit.getServer().getWorldContainer()
+        Bukkit.getServer().getWorldContainer();
     }
 
 }

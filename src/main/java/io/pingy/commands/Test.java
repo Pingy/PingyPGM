@@ -1,4 +1,4 @@
-package io.pingy.Commands;
+package io.pingy.commands;
 
 import com.sk89q.minecraft.util.commands.Command;
 import com.sk89q.minecraft.util.commands.CommandContext;
