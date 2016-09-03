@@ -19,11 +19,10 @@ TODO
    - Team chats
    - Scoreboard for objectives
  - XML parsing
- - Probably a lot of other stuff I can't remember
  - Bar timer
  - Custom tab list
+ - Probably a lot of other stuff I can't remember
  
-
 Can I help?
 -----------
 I will not be accepting any help such as pull requests until I get much further into development. However, that may change soon and I may put the project under the MIT license. As of now, I will be accepting issues but there isn't much to use at the moment.
