@@ -1,15 +1,6 @@
 PingyPGM
 ========
-Just one more clone
-
-What even is this
------------------
-
-A badly made clone of PGM from the mind of p i n g y 
-
-Why is it so badly coded
-------------------------
-because I don't know java
+A badly made clone of PGM from the mind of p i n g y. This may take very long to complete since I don't know much java and I don't really like Java anyways.
 
 What *has* been done?
 ---------------------
@@ -17,7 +8,7 @@ What *has* been done?
  - Knowledge of JDOM
  - Check if the maps directory has been already made and generate one if not
 
-What *hasn't* been done?
+TODO
 ------------------------
  - Support for maps other than bananaCTF
    - Ability to read the maps directory and fetching maps
@@ -26,14 +17,19 @@ What *hasn't* been done?
  - All the other commands
  - Teams
    - Team chats
+   - Scoreboard for objectives
  - XML parsing
  - Probably a lot of other stuff I can't remember
+ - Bar timer
+ - Custom tab list
+ 
 
 Can I help?
 -----------
-Not yet
+I will not be accepting any help such as pull requests until I get much further into development. However, that may change soon and I may put the project under the MIT license. As of now, I will be accepting issues but there isn't much to use at the moment.
 
 How do I build this?
 --------------------
 Why would you it barely works...
+
 
