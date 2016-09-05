@@ -30,7 +30,6 @@ public class Map {
 
             Document document = (Document) builder.build(xmlFile);
             Element rootNode = document.getRootElement();
-            List xml = rootNode.getChildren("map");
 
             MapInfo mapInfo = new MapInfo();
 
