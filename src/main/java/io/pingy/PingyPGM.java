@@ -28,7 +28,6 @@ public class PingyPGM extends JavaPlugin {
         }
         setupCommands();
     }
-
     private CommandsManager<CommandSender> commands;
 
     private void setupCommands() {
@@ -63,17 +62,6 @@ public class PingyPGM extends JavaPlugin {
         } catch (CommandException e) {
             sender.sendMessage(ChatColor.RED + e.getMessage());
         }
-
         return true;
     }
-
-
-
 }
-
-
-
-
-
-
-

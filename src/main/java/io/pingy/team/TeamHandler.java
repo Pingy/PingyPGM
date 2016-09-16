@@ -20,6 +20,8 @@ public class TeamHandler {
         this.id = id;
         this.members = new ArrayList<String>(members);
     }
+    public TeamHandler(){
+    }
     public void addPlayer(String name){
         this.members.add(name);
     }
@@ -53,4 +55,3 @@ public class TeamHandler {
 
 
 }
-

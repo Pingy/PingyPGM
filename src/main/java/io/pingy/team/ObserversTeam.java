@@ -6,15 +6,13 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.player.AsyncPlayerChatEvent;
 import org.bukkit.event.player.PlayerLoginEvent;
 
+
 import java.util.ArrayList;
 
 /**
  * Created by thlappy on 9/4/2016.
  */
 public class ObserversTeam implements Listener {
-    TeamHandler teamHandler = new TeamHandler("Observers", 100,) {
-
-
         private ArrayList<String> members = new ArrayList<String>();
         @EventHandler
         public void onLogin(PlayerLoginEvent event) {
@@ -29,10 +27,4 @@ public class ObserversTeam implements Listener {
                 event.setFormat(ChatColor.AQUA + "[Observers] " + playerName + ": " + event.getMessage());
             }
         }
-    }
-
-
-
-
 }
-

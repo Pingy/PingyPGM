@@ -9,5 +9,4 @@ public class MapHandler {
     public static void main(){
         Bukkit.getServer().getWorldContainer();
     }
-
 }

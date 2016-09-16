@@ -60,8 +60,4 @@ public class MapInfo {
     public String getLimit(){
         return limit;
     }
-
 }
-
-
-

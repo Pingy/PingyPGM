@@ -10,6 +10,4 @@ public enum Gamemodes {
     CTW,
     RAGE,
     BLITZ,
-
-
 }
