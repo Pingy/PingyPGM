@@ -16,7 +16,6 @@ import java.io.File;
  * Created by thlappy on 7/22/2016.
  */
 public class PingyPGM extends JavaPlugin {
-
     public void onEnable(){
         File mapFolder = new File("maps");
         if (mapFolder.exists()) {
