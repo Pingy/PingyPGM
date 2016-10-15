@@ -18,7 +18,7 @@ public class TeamHandler {
         this.color = color;
         this.size = size;
         this.id = id;
-        this.members = new ArrayList<String>(members);
+        //this.members = new ArrayList<String>(members);
     }
     public TeamHandler(){
     }
@@ -52,6 +52,4 @@ public class TeamHandler {
     public String getName(){
         return name;
     }
-
-
 }

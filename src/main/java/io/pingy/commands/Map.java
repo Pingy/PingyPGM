@@ -19,7 +19,7 @@ import java.util.List;
  * Created by thlappy on 7/22/2016.
  */
 public class Map {
-    @Command(aliases = {"map"}, desc = "A simple test command")
+    @Command(aliases = {"map"}, desc = "Displays map information")
     public static void test(final CommandContext args, CommandSender sender) throws CommandException {
         //sender.sendMessage("At least this command works :)");
 

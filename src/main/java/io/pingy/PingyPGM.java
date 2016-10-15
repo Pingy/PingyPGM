@@ -4,6 +4,7 @@ import com.sk89q.bukkit.util.CommandsManagerRegistration;
 import com.sk89q.minecraft.util.commands.*;
 import io.pingy.commands.Map;
 import io.pingy.commands.Test;
+import io.pingy.team.TeamHandler;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
@@ -63,4 +64,6 @@ public class PingyPGM extends JavaPlugin {
         }
         return true;
     }
+
+    public static TeamHandler peep;
 }
