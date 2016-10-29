@@ -4,14 +4,13 @@ import com.sk89q.minecraft.util.commands.Command;
 import com.sk89q.minecraft.util.commands.CommandContext;
 import com.sk89q.minecraft.util.commands.CommandException;
 import org.bukkit.command.CommandSender;
-import org.jdom2.input.SAXBuilder;
 
 /**
  * Created by thlappy on 10/15/2016.
  */
-public class Join {
-    @Command(aliases = {"join"}, desc = "Join a team!")
-    public static void join(final CommandContext args, CommandSender sender) throws CommandException {
-        SAXBuilder builder = new SAXBuilder();
+public class Maps {
+    @Command(aliases = "maps", desc = "Lists the maps loaded")
+    public static void maps(final CommandContext args, CommandSender sender) throws CommandException {
+
     }
 }

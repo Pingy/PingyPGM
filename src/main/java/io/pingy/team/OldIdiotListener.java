@@ -12,7 +12,7 @@ import java.util.ArrayList;
 /**
  * Created by thlappy on 9/4/2016.
  */
-public class ObserversTeam implements Listener {
+public class OldIdiotListener implements Listener {
         private ArrayList<String> members = new ArrayList<String>();
         @EventHandler
         public void onLogin(PlayerLoginEvent event) {

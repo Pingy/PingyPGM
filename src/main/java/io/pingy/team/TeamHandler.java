@@ -1,6 +1,7 @@
 package io.pingy.team;
 
 import org.bukkit.ChatColor;
+import org.bukkit.entity.Player;
 
 import java.util.ArrayList;
 
@@ -8,25 +9,27 @@ import java.util.ArrayList;
  * Created by thlappy on 9/2/2016.
  */
 public class TeamHandler {
+    Player player;
+    private String playerName = player.getName();
     private ArrayList<String> members;
     private String name;
     private int size;
     private ChatColor color;
     private String id;
-    public TeamHandler(String name, int size, String id, ChatColor color) {
+    public TeamHandler(String name, int size, String id, ChatColor color){
         this.name = name;
         this.color = color;
         this.size = size;
         this.id = id;
-        //this.members = new ArrayList<String>(members);
+        this.members = new ArrayList<String>(members);
     }
     public TeamHandler(){
     }
-    public void addPlayer(String name){
-        this.members.add(name);
+    public void addPlayer(String playerName){
+        this.members.add(playerName);
     }
-    public void removePlayer(String name){
-        members.remove(name);
+    public void removePlayer(String playerName){
+        members.remove(playerName);
     }
     public void setName(String name){
         this.name = name;
@@ -52,4 +55,7 @@ public class TeamHandler {
     public String getName(){
         return name;
     }
+    public static ArrayList<String> teamlist;
+    public void addTeam(String name) {teamlist.add(name);};
+
 }
